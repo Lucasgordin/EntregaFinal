@@ -1,0 +1,24 @@
+footer{
+    background-color: black;
+}
+
+.pie{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+    
+    }
+    .behance{
+      padding-left: 5px;
+      scale: 2;
+    }
+    .linkedin{
+      padding-left: 5px;
+    }
+    .insta{
+      padding-left: 5px;
+    }
+    .spotify{
+      padding-left: 5px;
+    }

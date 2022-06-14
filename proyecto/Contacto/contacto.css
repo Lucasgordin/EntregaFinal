@@ -1,0 +1,95 @@
+/* navegador */
+
+
+footer{background-color: black;}
+
+.logo {
+  position: fixed;
+  padding: 20px;
+  padding-left: 2%;
+  z-index: 2;
+
+ }
+.fondoheader{
+z-index: 1;
+  opacity: 50%;
+position: fixed;}
+
+.menu{
+padding-top: 13px;
+
+}
+
+  
+
+  /* main */
+
+  main {
+    padding-top: 3%;  
+    background-color: rgb(247, 242, 242);}
+
+ 
+  .nte {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px;
+  }
+ 
+  
+  
+  .row{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-md-left{
+    padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+
+  }
+
+  .pie{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+    
+    }
+    .behance{
+      padding-left: 5px;
+      scale: 2;
+    }
+    .linkedin{
+      padding-left: 5px;
+    }
+    .insta{
+      padding-left: 5px;
+    }
+    .spotify{
+      padding-left: 5px;
+    }
+
+    h1{
+      padding-left: 40px;
+      padding-top: 100px;
+      padding-bottom: 0px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 30pt;
+      text-align: left;
+    }
+    
+  @media screen and (min-width: 768px) {
+    .nte {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      padding-bottom: 20px;
+          
+  }
+
+  
+   }     
+  
+  
